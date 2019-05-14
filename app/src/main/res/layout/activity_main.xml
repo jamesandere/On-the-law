@@ -1,0 +1,54 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/court" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/appNameTextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:fontFamily="sans-serif"-->
+        <!--android:text="On The Law"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="65sp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/caseInput"-->
+        <!--android:layout_width="220dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:layout_marginTop="320dp"-->
+        <!--android:fontFamily="sans-serif"-->
+        <!--android:hint="Search for case here.."-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textColorHint="#FFFFFF"-->
+        <!--android:textSize="25sp" />-->
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/findbutton"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="600dp"-->
+        <!--android:background="#CDDC39"-->
+        <!--android:text="See Cases"-->
+        <!--android:textColor="#fff" />-->
+
+
+<!--</RelativeLayout>-->
