@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-//
+
 public class MainActivity extends AppCompatActivity {
   @BindView(R.id.findbutton) Button mFindcaseButton;
   @BindView(R.id.appNameTextView) TextView mAppNameTextView;
@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-//
-//        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/font1.ttf");
-//
+
+        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/font1.ttf");
+
         mFindcaseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
