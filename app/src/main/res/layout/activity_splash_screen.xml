@@ -9,12 +9,12 @@
     android:touchscreenBlocksFocus="false"
     tools:context=".SplashScreen">
 
-        <!--<ImageView-->
-            <!--android:id="@+id/car"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:scaleType="centerCrop"-->
-            <!--android:src="@drawable/law" />-->
+        <ImageView
+            android:id="@+id/car"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/law" />
 
         <TextView
             android:id="@+id/textView3"
