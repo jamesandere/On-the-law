@@ -14,6 +14,7 @@ public class LawAdapter extends ArrayAdapter {
         this.mcases = mcases;
         this.mparties = mparties;
     }
+
     @Override
     public Object getItem(int position) {
         String cases = mcases[position];
