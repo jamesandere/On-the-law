@@ -22,3 +22,5 @@ public class MainActivityTest {
         assertTrue("On The Law".equals(appNameTextView.getText().toString()));
     }
 }
+
+
