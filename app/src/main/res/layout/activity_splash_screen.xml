@@ -1,14 +1,13 @@
-<!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
-    <!--xmlns:tools="http://schemas.android.com/tools"-->
-    <!--android:id="@+id/car"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:background="#020202"-->
-    <!--android:touchscreenBlocksFocus="false"-->
-    <!--tools:context=".SplashScreen">-->
-
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/car"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    android:touchscreenBlocksFocus="false"
+    tools:context=".SplashScreen">
 
         <!--<ImageView-->
             <!--android:id="@+id/car"-->
@@ -17,30 +16,30 @@
             <!--android:scaleType="centerCrop"-->
             <!--android:src="@drawable/law" />-->
 
-        <!--<TextView-->
-            <!--android:id="@+id/textView3"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_alignParentTop="true"-->
-            <!--android:layout_marginLeft="103dp"-->
-            <!--android:layout_marginTop="203dp"-->
-            <!--android:fontFamily="sans-serif"-->
-            <!--android:text=" On The Law"-->
-            <!--android:textColor="#FFFFFF"-->
-            <!--android:textSize="35sp" />-->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="203dp"
+            android:fontFamily="sans-serif"
+            android:text=" On The Law"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
 
-        <!--<TextView-->
-            <!--android:id="@+id/textView4"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_alignParentTop="true"-->
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:layout_marginTop="650dp"-->
-            <!--android:fontFamily="@font/aladin"-->
-            <!--android:text=" "-->
-            <!--android:textColor="#FFFFFF"-->
-            <!--android:textSize="30sp" />-->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="650dp"
+            android:fontFamily="@font/aladin"
+            android:text=" "
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
 
 
 
-<!--</RelativeLayout>-->
+</RelativeLayout>
