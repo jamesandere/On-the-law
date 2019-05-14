@@ -30,7 +30,7 @@ import butterknife.ButterKnife;
             @Override
             public void onClick(View v) {
                 String case = mcase.getText().toString();
-//                Toast.makeText(MainActivity.this , "searching .." ,Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this , "searching .." ,Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity.this , CasesActivity.class);
                 intent.putExtra("case", case);
 
